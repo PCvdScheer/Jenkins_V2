@@ -1,7 +1,7 @@
 
 
 Pieter van der Scheer 24-05-2020
-Testing project to automated unit testing from Github repo
+Testing project to automated unit testing from Github repo (timed upon detecting changes)
 
 1) Started Maven project in IntelliJ
 2) Created class and testClass containing functions and tests
@@ -10,6 +10,12 @@ Testing project to automated unit testing from Github repo
 
 https://dzone.com/articles/why-your-junit-5-tests-are-not-running-under-maven
 
-5) setup build notifications ->
+5) add build goal test
 
-Again checking whether email notifications are working in Jenkins!
+6) setup build notifications -> create password google to circumvent two-factor auth ->
+add email settings Jenkins
+
+http://tanmaysarkar.com/email-configuration-with-jenkins/
+
+7) Unit testing runs successfully
+8)
